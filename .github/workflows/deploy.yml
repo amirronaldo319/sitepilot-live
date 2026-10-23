@@ -25,6 +25,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
+          VITE_FORM_ENDPOINT: ${{ vars.VITE_FORM_ENDPOINT }}
           VITE_BASE: /sitepilot-live/
           VITE_SITE_URL: https://sitepilotdesign.ca
       - uses: actions/upload-pages-artifact@v3
