@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: amirronaldo319/northline-studio
-          ref: 328873436203a14888826de5777c561ab032cd80
+          ref: 06c74a4ec48c15ef1e2d80051c6eb07896bc4506
       - uses: actions/setup-node@v4
         with:
           node-version: 22
